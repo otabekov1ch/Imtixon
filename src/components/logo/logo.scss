@@ -1,0 +1,16 @@
+.logo{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+.logo img{
+    width: 40px;
+}
+.logo-title{
+    font-family: 'Roboto Mono';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 33px;
+    padding: 10px;
+}

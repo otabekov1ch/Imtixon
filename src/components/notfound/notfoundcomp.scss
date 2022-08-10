@@ -1,0 +1,45 @@
+.wrapper {
+    display: flex;
+    padding: 100px 0;
+    flex-direction: column;
+    gap: 2px;
+    justify-content: center;
+    align-items: center;
+
+    h4 {
+        padding-top: 15px;
+        font-family: 'Roboto Mono';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 36px;
+        color: #474747;
+    }
+
+    p {
+        width: 450px;
+        font-family: 'Roboto Mono';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 24px;
+        text-align: center;
+        padding-bottom: 10px;
+        color: #474747;
+    }
+
+    a {
+        font-family: 'Roboto Mono';
+        text-decoration: none;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 32px;
+        text-align: center;
+        color: #474747;
+    }
+    a::after{
+        content: '>';
+        padding-left: 15px;
+    }
+}

@@ -1,0 +1,87 @@
+@import "@fontsource/roboto-mono";
+.site-footer {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    color: #ffffff;
+    background: rgba(0, 0, 0, 0.952);
+    height: 250px;
+    margin-bottom: 0;
+    font-family: 'Roboto Mono';
+}
+
+.logo-bobur {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 30%;
+    background-image: url('../../assets/img/bg-footer.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-left: 150px;
+    position: relative;
+    padding-bottom: 100px;
+
+
+    .footer-logo__title {
+        padding-left: 15px;
+
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 42px;
+
+        color: #FFFFFF;
+
+    }
+}
+
+.colums {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    float: left;
+    margin-right: 150px;
+    align-content: flex-start;
+    
+
+    .colum {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: start;
+        padding: 0;
+        justify-content: flex-start;
+        
+        h3{
+            
+font-family: 'Segoe UI';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 27px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+
+        }
+
+        li{
+            list-style: none;
+        }
+         a {
+            text-decoration: none;
+            
+            justify-content: flex-start;
+            padding: 0;
+            font-family: 'Segoe UI';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 24px;
+            color: #FFFFFF;
+        }
+    }
+}

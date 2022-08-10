@@ -1,0 +1,63 @@
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 15px;
+    width: 328px;
+    height: 100%;
+
+    h3 {
+        font-family: 'Roboto Mono';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 36px;
+        color: #474747;
+    }
+
+    p {
+        font-family: 'Roboto Mono';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 24px;
+        color: #474747;
+    }
+
+    a {
+        text-decoration: none;
+        font-family: 'Roboto Mono';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 14px;
+        color: #474747;
+        padding-bottom: 20px;
+        background: #FFBA9D;
+        color: white;
+        padding: 12px;
+        width: 40%;
+        border-radius: 10px;
+        margin: 15px 0;
+    };
+
+    .explore::after {
+        content: '>';
+        padding-left: 15px;
+        width: 4px;
+        height: 8px;
+        color: white;
+    }
+    .social_icons{
+        display: flex;
+        flex-direction: row;
+        gap: 25px;
+        align-items: center;
+        
+
+        img:hover{
+           cursor: pointer; 
+        }
+    }
+
+}
